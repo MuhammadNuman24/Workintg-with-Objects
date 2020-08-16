@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<Script>
+
+'use strict';
+
+//code here
+
+function doIt (){
+
+    const person = {
+firstName :'Bob',
+lasrName :'Smith',
+age : 23 ,
+isCustomer : false,
+ address:{
+     street:'123 Oak Lane',
+     city:'New York',
+     state:'NY',
+     zipCode:'1111'
+ }
+ };
+ const person2={
+     address:person.address
+ }
+  console.log(person.firstName); 
+
+ const propName ='firstName';
+ console.log(person[propName]);
+// person .address = '123 Oak Lane';
+//console.log(person.address);
+
+console.dir (person) ;
+console.dir (person2) ;
+}
+doIt();
+</Script>0
